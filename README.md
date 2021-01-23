@@ -74,3 +74,4 @@ hs -o setup/index.html
     - **When** the user clicks on a button that reads "Click Me" in the center of the page
     - **Then** a random hex code should be created
     - **And** the background color of the current page’s body should be changed to the new color
+# color-flipper
