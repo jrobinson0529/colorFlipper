@@ -8,42 +8,75 @@ body {
   background-color: blanchedalmond;
 }
 main {
-  border: 1px red solid;
+  /* border: 1px red solid; */
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main div, button {
+main div,
+button {
   margin: 15px;
 }
 .top-bar {
-  height: 40px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
   border-bottom: 2px grey solid;
   width: 100%;
   background-color: burlywood;
-  align-items: center;
-  justify-content: flex-end;
-}
-header {
   font-size: large;
   font-weight: bold;
+  box-shadow: 0 10px 50px grey;
+}
+.simple-hex-container {
+  display: flex;
 }
 .simple {
-  margin-left: 100px;
+  margin: 8px;
+  /* border: 1px red solid; */
 }
-.color-flipper {
-  margin-right: 200px;
-  display: block;
-  justify-self: center;
+.color-flipper a {
+  animation-name: colorChange;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* border: 1px red solid; */
 }
 .hex {
-  margin-left: 50px;
-  margin-right: 200px;
+  margin: 8px;
+  /* border: 1px red solid; */
 }
 a {
   color: black;
   text-decoration: none;
+}
+/* Animation for the color change on Color Flipper link to homepage */
+.simple a {
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.hex a {
+  animation-name: colorChange;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
 }
