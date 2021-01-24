@@ -19,7 +19,7 @@ main div,
 button {
   margin: 15px;
 }
-.top-bar {
+.nav-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,6 +30,7 @@ button {
   font-size: large;
   font-weight: bold;
   box-shadow: 0 10px 50px grey;
+  background-image: linear-gradient(to bottom right,rgb(194, 121, 27), burlywood );
 }
 .simple-hex-container {
   display: flex;
