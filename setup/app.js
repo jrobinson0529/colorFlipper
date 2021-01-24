@@ -1,8 +1,7 @@
 let colorArraySimple = ["red", "blue", "purple", "yellow", "green", "teal", "orange", "maroon", "black", "grey", "aquamarine"];
-let colorArrayHex = [];
 // Chooses random color from Simple and Hex
 let randomColorSimple = colorArraySimple[Math.floor(Math.random()*colorArraySimple.length)];
-let randomColorHex = colorArrayHex[Math.floor(Math.random()*colorArrayHex.length)];
+let ranHexNum = '';
 
 let simpleMode = false;
 let hexMode = false;
@@ -14,7 +13,17 @@ let colorDisplay = document.querySelector("#color-display");
 let bodyBgColorTar = document.querySelector('body').style.background;
 // Need to change modes
 // Need function that chooses a random hex color
-
+const ranHexColor = () => {
+  let hex = "abcdef0123456789";
+  let ranHexArr = [];
+  for (let i = 0; i < 6; i++) {
+    ranHexArr.push(hex[Math.floor(Math.random()*hex.length)]);
+  }
+   ranHexNum = '#' + ranHexArr.join('');
+  
+};
+ranHexColor();
+console.log(ranHexNum);
 
 
 
