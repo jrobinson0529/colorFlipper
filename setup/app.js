@@ -1,17 +1,23 @@
+// Color array for simple mode
 let colorArraySimple = ["red", "blue", "purple", "yellow", "green", "teal", "orange", "maroon", "black", "grey", "aquamarine"];
-// Chooses random color from Simple and Hex
+
+// Chooses random color from simple color array
 let randomColorSimple = colorArraySimple[Math.floor(Math.random()*colorArraySimple.length)];
 let ranHexNum = '';
-
-let simpleMode = false;
-let hexMode = false;
-// DOM target elements
-let hexButton = document.querySelector("#hex");
-let simpleButton = document.querySelector("#simple");
+let btnActive = true;
+// DOM target elements for index.html
 let colorButton = document.querySelector("#random-color");
 let colorDisplay = document.querySelector("#color-display");
 let bodyBgColorTar = document.querySelector('body').style.background;
-// Need to change modes
+// End of DOM target elements for index.html
+
+// DOM target elements for hex-mode.html
+let colorButtonHex = document.querySelector("#random-color-hex");
+let colorDisplayHex = document.querySelector("#color-display-hex");
+// End of DOM target elements for hex-mode.html
+
+
+
 // Need function that chooses a random hex color
 const ranHexColor = () => {
   let hex = "abcdef0123456789";
@@ -43,6 +49,6 @@ const firstRanColor = (event, ranColor, ranHex) => {
 };
 
 
-if (simpleMode === false && hexMode === false) {
+if (btnActive) {
   colorButton.addEventListener('click', firstRanColor);
 }
