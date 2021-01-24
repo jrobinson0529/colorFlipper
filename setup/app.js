@@ -45,7 +45,7 @@ const firstRanColor = (event, ranColor) => {
   console.log(event);
 
   //Display the color chosen randomly to the user
-  colorDisplay.innerHTML = `Background-color: "${bodyBgColorTar}"!`;
+  colorDisplay.innerHTML = `Background-color: ${bodyBgColorTar}!`;
 };
 // const getId = (e) => {
 //   console.log(e.target.id);
