@@ -54,7 +54,7 @@ const firstRanColor = (event, ranColor) => {
 // Function to toggle simple or hex mode
 const isSimpleMode = () => {
   let currPath = window.location.pathname;
-  if (currPath === '/setup/index.html') {
+  if (currPath === '/index.html') {
     colorButton.addEventListener('click', firstRanColor);
   } else if (currPath === '/hex-mode.html') {
     colorButtonHex.addEventListener('click', ranHexColor);
