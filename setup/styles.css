@@ -19,7 +19,7 @@ main div,
 button {
   margin: 15px;
 }
-.top-bar {
+.nav-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,6 +30,11 @@ button {
   font-size: large;
   font-weight: bold;
   box-shadow: 0 10px 50px grey;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(194, 121, 27),
+    burlywood
+  );
 }
 .simple-hex-container {
   display: flex;
@@ -45,14 +50,20 @@ button {
   animation-timing-function: ease-in-out;
   /* border: 1px red solid; */
 }
+.color-flipper {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
 .hex {
   margin: 8px;
   /* border: 1px red solid; */
 }
 a {
+  font-family: "Bebas Neue", cursive;
   color: black;
   text-decoration: none;
 }
+
 /* Animation for the color change on Color Flipper link to homepage */
 .simple a {
   animation-name: colorChange;
@@ -65,6 +76,27 @@ a {
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+.simple a:hover,
+.hex a:hover {
+  animation: none;
+  color: #630e5f;
+}
+.color-display {
+  color: cornsilk;
+  background-color: black;
+  border-radius: 5px;
+  border: 3px rgba(148, 9, 9, 0.452) solid;
+  padding: 10px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+.random-color-btn {
+  color: cornsilk;
+  background-color: rgb(26, 23, 23);
+  border-radius: 5px;
+  border: 3px rgba(148, 9, 9, 0.452) solid;
+  padding: 5px;
+  font-family: "Archivo Narrow", sans-serif;
 }
 @keyframes colorChange {
   0% {
