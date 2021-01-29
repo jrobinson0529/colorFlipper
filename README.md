@@ -15,21 +15,11 @@ This application has two modes: Simple and Hex.
   
   ![Hex Demo](HexGif.gif)
 
-## Getting Started With Color Flipper
-
-To get started with Color Flipper, follow these steps:
-
-```
-git clone <ADD_GITHUB_URL_HERE>
-```
-
 ## Using Color Flipper
 
 To use Color Flipper, follow these steps:
 
-```shell
-hs -o setup/index.html
-```
+Naviate do your favorite browser and type in http://jr-colorflipper.netlify.app/ and you are good to go!
 
 ## Acceptance Criteria
 1. Scenario 1
