@@ -32,4 +32,5 @@ Simple Mode: Click the button to change the background color of screen randomly 
 Hex Mode: Clicking generates a random hexadecimal color and displays it on the body as well as in a message to user.
 
 ### Contributors
-![Jesse Robinson](https://github.com/jrobinson0529)
+
+[Jesse Robinson](https://github.com/jrobinson0529)
