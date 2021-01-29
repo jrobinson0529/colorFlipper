@@ -21,31 +21,15 @@ To use Color Flipper, follow these steps:
 
 Naviate do your favorite browser and type in http://jr-colorflipper.netlify.app/ and you are good to go!
 
-## Acceptance Criteria
-1. Scenario 1
-    - **User story:** As a user, I want to be able to randomly select a color so that the background color of the page can be changed.
-    - **Given** the user has navigated to the home page
-    - **When** the user clicks on a button that reads "Click Me" in the center of the page
-    - **Then** A random color should be chosen from an array of strings. 
-    - **And:** The background color of the current page’s body should be changed to the chosen color
-1. Scenario 2
-    - **User story:** As a user, I want to be able to know exactly what background color has been chosen.
-    - **Given** the user has navigated to any page
-    - **When** the user wants to see what color is being displayed
-    - **Then** above the button the background color’s text representation should be displayed
-1. Scenario 3
-    - **User story:** As a user, I want to be able to know where they are within the application
-    - **Given** the user is on any page
-    - **When** the user wants to know what page they are on
-    - **Then** the name of the page they are on should be displayed somewhere on the screen.
-1. Scenario 4
-    - **User story:** As a user, I want to be able to navigate to any other available pages
-    - **Given** the user is on any page
-    - **When** the user wants to navigate to the hex page, or the simple page
-    - **Then** the user should be able to click on a link in the Navbar that will take them to the correct page
-1. Scenario 5
-    - **User story:** As a user, I want to be able to randomly change the background color of the page to any hex code color.
-    - **Given** the user has navigated to the Hex page
-    - **When** the user clicks on a button that reads "Click Me" in the center of the page
-    - **Then** a random hex code should be created
-    - **And** the background color of the current page’s body should be changed to the new color
+### UX
+
+User will see a sleek and sexy page load up when they visit the url. On this page there will be 3 interactible buttons. Two are on the nav bar that switch between the modes. One more will be in the center of the screen where the magic happens.
+Page loads automatically into the standard mode. User can switch freely and enjoy.
+
+### Features
+
+Simple Mode: Click the button to change the background color of screen randomly based on a predetermined array
+Hex Mode: Clicking generates a random hexadecimal color and displays it on the body as well as in a message to user.
+
+### Contributors
+![Jesse Robinson](https://github.com/jrobinson0529)
