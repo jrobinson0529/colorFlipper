@@ -6,6 +6,11 @@ Color Flipper is a fun webb app that allows you to pick random colors that you c
 
 ## Prototypes
 
+#### Hex Mode
+![HexGif](https://github.com/jrobinson0529/colorFlipper/blob/main/HexGif.gif)
+
+#### Simple Mode
+![SimpleMode]()
 
 ## Using Color Flipper
 
