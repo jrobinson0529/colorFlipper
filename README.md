@@ -1,19 +1,11 @@
 # Color Flipper
 
-Color Flipper is a tool that allows a user to do change the background of the page by a click of button.
+Color Flipper is a fun webb app that allows you to pick random colors that you can use for whatever you want. It has two distinct modes.
+1. Simple: In this mode you choose a random color from a predetermined array of colors.
+2. Hex: In this mode a randomly generated hexcode gives you your color and displays the text on the screen.
 
-This application has two modes: Simple and Hex.
+## Prototypes
 
-### Simple View
-- If the application is in simple mode when the user clicks the button, the background color will be chosen by predetermined colors.
-  
-  ![Simple Demo](SimpleGif.gif)
-  
-### Hex View
-
-- If the user is in hex mode, the color that will show after the button it pressed will be a completely random hex code color.
-  
-  ![Hex Demo](HexGif.gif)
 
 ## Using Color Flipper
 
