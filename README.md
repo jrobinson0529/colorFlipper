@@ -7,10 +7,16 @@ Color Flipper is a fun webb app that allows you to pick random colors that you c
 ## Prototypes
 
 #### Hex Mode
-![HexGif](https://github.com/jrobinson0529/colorFlipper/blob/main/HexGif.gif)
+
+![](https://github.com/jrobinson0529/colorFlipper/blob/main/HexGif.gif)
 
 #### Simple Mode
-![SimpleMode]()
+
+![](https://github.com/jrobinson0529/colorFlipper/blob/main/SimpleGif.gif)
+
+## Deployed Site
+
+https://jr-colorflipper.netlify.app/
 
 ## Using Color Flipper
 
@@ -27,6 +33,16 @@ Page loads automatically into the standard mode. User can switch freely and enjo
 
 Simple Mode: Click the button to change the background color of screen randomly based on a predetermined array
 Hex Mode: Clicking generates a random hexadecimal color and displays it on the body as well as in a message to user.
+
+### Screenshots
+
+Landing Page
+![](https://i.gyazo.com/63e3e898fdf0b9ca57de60c77b406569.png)
+
+Simple Mode Display
+![](https://i.gyazo.com/41fad6e4103b06222d21d08e1d26122b.png)
+Hex Mode Display
+![](https://i.gyazo.com/480b94242c51b1c49a107bdf2deecc2f.png)
 
 ### Contributors
 
